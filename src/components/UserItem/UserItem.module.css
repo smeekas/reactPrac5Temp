@@ -1,0 +1,44 @@
+.userItem {
+  border: 1px solid black;
+  display: flex;
+  padding: 1rem 0;
+    align-items: center;
+  flex-direction: row;
+}
+.userItem >div {
+  flex: 1;
+  border: 1px solid seagreen;
+}
+.avatar_name {
+  display: flex;
+  /* flex: 2; */
+  width: 20rem;
+  border: 1px solid goldenrod;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+.name_email{
+    border: 1px solid blue;
+    flex: 2;
+}
+.avatar{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.access_icon{
+    display: flex;
+}
+.icon{
+  font-size: 1.5rem;
+}
+.lock:hover{
+  color: red;
+}
+.active{
+  color: #1ebd78;
+  font-weight: 500;
+
+}

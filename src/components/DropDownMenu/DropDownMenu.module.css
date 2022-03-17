@@ -1,0 +1,11 @@
+.menu{
+    outline: none;
+    border: none;
+    padding: 4px 0px;
+    font-size: 1rem;
+    /* border: 1px solid saddlebrown; */
+    background-color: white;
+}
+.menu:focus{
+    outline: none;
+}
